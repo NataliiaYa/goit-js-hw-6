@@ -15,10 +15,10 @@ const textOutput = document.querySelector('#name-output');
 
 textInput.addEventListener("input", (event) => {
     const name = event.target.value;
-    console.log(name);
     if (name) {
         textOutput.textContent = name;
     } else { 
         textOutput.textContent = "Anonymous";
     }
+    console.log(name);
 })

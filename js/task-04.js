@@ -20,16 +20,16 @@ const decrementBtn = document.querySelector('[data-action ="decrement"]');
 const incrementBtn = document.querySelector('[data-action="increment"]');
 
 decrementBtn.addEventListener('click', function () {
-    console.log();
+    // console.log();
     counterValue.decrement();
     valueEl.textContent = counterValue.value;
-    console.log(counterValue);
+    // console.log(counterValue);
 });
 
 incrementBtn.addEventListener('click', function () {
-    console.log();
+    // console.log();
     counterValue.increment();
     valueEl.textContent = counterValue.value;
-    console.log(counterValue);
+    // console.log(counterValue);
 })
 

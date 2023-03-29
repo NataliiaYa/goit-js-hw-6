@@ -13,7 +13,7 @@ form.addEventListener("submit", handleSubmit);
 function handleSubmit(event) {
   event.preventDefault();
   const {
-    elements: { login, password }
+    elements: { email, password }
   } = event.currentTarget;
 
   if (email.value === '' || password.value === '') {
